@@ -5,9 +5,9 @@ const teorema_de_pitagoras = (cateto1, cateto2) => Math.sqrt((cateto1**2) + (cat
 // -----------Navio -> Nelson-class battleship-----------
 // a-b
 // c-x
-// console.log('Comprimento ->' ,(760*2)/280);
+// console.log('Comprimento ->' ,(760*1)/280);
 // console.log('Altura -> ', (277*1)/91);
-// console.log('Largura -> ', (120*0.5)/43);
+// console.log('Largura -> ', (120*5)/43);
 // console.log((280*1)/350);
 // console.log(`Comprimento -> ${calculaMedida(760, 4.5, 280)}`);
 // console.log(`Altura -> ${calculaMedida(277, 2.5, 91)}`);
