@@ -45,12 +45,12 @@ const teorema_de_pitagoras = (cateto1, cateto2) => Math.sqrt((cateto1**2) + (cat
 // -------------------------------------------------------
 // -----------T-34/76-----------
 // console.log((200*2)/165);
-// const calculaMedida1 = (x) => {
-//     let r1 = (200*x)/165;
-//     let r2 = `${x} -> ${r1.toFixed(2)} -> ${Math.round(r1)}`;
-//     return r2;
-// };
-// console.log(calculaMedida1(2));
+const calculaMedida1 = (x) => {
+    let r1 = (200*x)/165;
+    let r2 = `${x} -> ${r1.toFixed(2)} -> ${Math.round(r1)}`;
+    return r2;
+};
+// console.log(calculaMedida1(4));
 // console.log(teorema_de_pitagoras(11, 19));
 // console.log((21*7)/12);
 // console.log((165*20)/260);
@@ -61,5 +61,12 @@ const calculaTamanhoRoda2 = (x) => {
     // let r3 = `Roda 2 -> ${r1.toFixed(2)} -> ${Math.round(r1)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
-console.log(calculaTamanhoRoda2(1)); // Roda 2
+// console.log(calculaTamanhoRoda2(1)); // Roda 2
+const calculaTamanhoRoda2_2 = (x) => {
+    let r1 = (165*x)/165;
+    let r2 = (200*r1)/165;
+    let r3 = `Roda 2 -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
+    return r3;
+};
+console.log(calculaTamanhoRoda2_2(15));
 // -------------------------------------------------------
