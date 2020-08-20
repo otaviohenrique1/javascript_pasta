@@ -50,7 +50,6 @@ const calculaMedida_T34_76 = (x) => {
     let r2 = `Calcula medida -> ${x} -> ${r1.toFixed(2)} -> ${Math.round(r1)}`;
     return r2;
 };
-// console.log(calculaMedida_T34_76(4));
 // console.log(teorema_de_pitagoras(11, 19));
 // console.log((21*7)/12);
 // console.log((165*20)/260);
@@ -60,7 +59,6 @@ const calculaTamanhoRoda3_T34_76 = (x) => {
     let r3 = `Roda 3 -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
-console.log(calculaTamanhoRoda3_T34_76(8));
 const calculaTamanhoRoda2_T34_76 = (x) => {
     let r1 = (24*x)/44;
     let r2 = (200*r1)/165;
@@ -68,14 +66,12 @@ const calculaTamanhoRoda2_T34_76 = (x) => {
     // let r3 = `Roda 2 -> ${r1.toFixed(2)} -> ${Math.round(r1)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
-// console.log(calculaTamanhoRoda2_T34_76(1));
 const calculaTamanhoRoda1_T34_76 = (x) => {
     let r1 = (14*x)/27;
     let r2 = (200*r1)/165;
     let r3 = `Roda 1 -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
-// console.log(calculaTamanhoRoda1_T34_76(7));
 const calculaTamanhoChassi_T34_76 = (x) => {
     /* Imagem de cima */
     let r1 = (165*x)/165;
@@ -83,5 +79,19 @@ const calculaTamanhoChassi_T34_76 = (x) => {
     let r3 = `Chassi -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
+const calculaTamanhoChassi_2_T34_76 = (x) => {
+    /* Imagem pequena*/
+    let r1 = (165*x)/47;
+    let r2 = (200*r1)/165;
+    let r3 = `Chassi -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
+    return r3;
+};
+// console.log(calculaMedida_T34_76(2));
+console.log(calculaTamanhoChassi_2_T34_76(5));
 // console.log(calculaTamanhoChassi_T34_76(14));
+// console.log(calculaTamanhoRoda1_T34_76(1.5));
+// console.log(calculaTamanhoRoda2_T34_76(1));
+// console.log(calculaTamanhoRoda3_T34_76(3));
+
+
 // -------------------------------------------------------
