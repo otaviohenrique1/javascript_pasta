@@ -86,12 +86,12 @@ const calculaTamanhoChassi_2_T34_76 = (x) => {
     let r3 = `Chassi -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
-// console.log(calculaMedida_T34_76(2));
-console.log(calculaTamanhoChassi_2_T34_76(5));
+// console.log(calculaMedida_T34_76(49));
+// console.log(calculaTamanhoChassi_2_T34_76(5));
 // console.log(calculaTamanhoChassi_T34_76(14));
-// console.log(calculaTamanhoRoda1_T34_76(1.5));
-// console.log(calculaTamanhoRoda2_T34_76(1));
-// console.log(calculaTamanhoRoda3_T34_76(3));
+// console.log(calculaTamanhoRoda1_T34_76(6));
+console.log(calculaTamanhoRoda2_T34_76(3));
+// console.log(calculaTamanhoRoda3_T34_76(6));
 
 
 // -------------------------------------------------------
