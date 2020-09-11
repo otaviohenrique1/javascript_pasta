@@ -103,10 +103,19 @@ const calculaTamanhoChassi_2_T34_76 = (x) => {
 // console.log(calculaTamanhoRoda3_T34_76(6));
 // -------------------------------------------------------
 // -----------Roberts-class monitor-HMS Roberts-----------
-const calculaMedidaHMSRoberts = (valor) => {
+const calculaMedidaHMSRobertsImagem1 = (valor) => {
     let r1 = (600*valor)/264;
     let r2 = `${valor} -> ${r1.toFixed(2)} -> ${Math.round(r1)}`;
     return r2;
 };
-console.log(`C02 -> ${calculaMedidaHMSRoberts(1)}`);
+
+const calculaMedidaHMSRobertsImagem2 = (valor) => {
+    let r1 = (264*valor)/267;
+    let r2 = (600*r1)/264;
+    let r3 = `${r1} -> ${r2.toFixed(2)} -> ${Math.round(r)}`;
+    return r3;
+};
+
+// console.log(`C50 -> ${calculaMedidaHMSRobertsImagem1(1)}`);
+// console.log(`C51 -> ${calculaMedidaHMSRobertsImagem2(1)}`);
 // -------------------------------------------------------
