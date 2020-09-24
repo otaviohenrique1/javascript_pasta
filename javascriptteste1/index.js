@@ -17,7 +17,7 @@ const calculaMedida_Bateria_8_Canhoes = (x) => {
     let r3 = `Bateria 8 canhoes -> ${x} -> ${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
     return r3;
 };
-// console.log(calculaMedida_Bateria_8_Canhoes(15));
+console.log(calculaMedida_Bateria_8_Canhoes(14));
 // console.log(`Comprimento -> ${calculaMedida(760, 4.5, 280)}`);
 // console.log(`Altura -> ${calculaMedida(277, 2.5, 91)}`);
 // console.log(`Largura -> ${calculaMedida(120, 2.5, 43)}`);
