@@ -12,7 +12,9 @@ const teorema_de_pitagoras = (cateto1, cateto2) => Math.sqrt((cateto1**2) + (cat
 // console.log((128*280)/43);
 // console.log((280*19)/834);
 // console.log(((280*80)/22).toFixed(2));
-console.log(((760*16)/1018).toFixed(2));
+// console.log(((760*30)/1018).toFixed(2)); // Barcos
+console.log(Math.floor(((760*8)/1018).toFixed(2))); // Barcos
+// console.log(Math.floor(((50*1)/64).toFixed(2))); // Barco desenho (G)
 const calculaMedida_Bateria_8_Canhoes = (x) => {
     let r1 = (7*x)/50;
     let r2 = (19*r1)/7;
