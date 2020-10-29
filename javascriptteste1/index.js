@@ -13,7 +13,7 @@ const teorema_de_pitagoras = (cateto1, cateto2) => Math.sqrt((cateto1**2) + (cat
 // console.log((280*19)/834);
 // console.log(((280*80)/22).toFixed(2));
 // console.log(((760*30)/1018).toFixed(2)); // Barcos
-console.log(Math.floor(((760*8)/1018).toFixed(2))); // Barcos
+// console.log(Math.floor(((760*8)/1018).toFixed(2))); // Barcos
 // console.log(Math.floor(((50*1)/64).toFixed(2))); // Barco desenho (G)
 const calculaMedida_Bateria_8_Canhoes = (x) => {
     let r1 = (7*x)/50;
@@ -122,4 +122,21 @@ const calculaMedidaHMSRobertsImagem2 = (valor) => {
 
 // console.log(`C50 -> ${calculaMedidaHMSRobertsImagem1(1)}`);
 // console.log(`C51 -> ${calculaMedidaHMSRobertsImagem2(1)}`);
+// -------------------------------------------------------
+// ------------------------BTR-90-------------------------
+const calculaMedidaBTR90Imagem1 = (valor) => {
+    let r1 = (250*valor)/214;
+    let r2 = `${r1} -> ${r1.toFixed(2)} -> ${Math.round(r1)}`;
+    return r2;
+};
+
+const calculaMedidaBTR90Imagem3 = (valor) => {
+    let r1 = (214*valor)/207;
+    let r2 = (250*r1)/214;
+    let r3 = `${r1.toFixed(2)} -> ${r2.toFixed(2)} -> ${Math.round(r2)}`;
+    return r3;
+};
+
+console.log(calculaMedidaBTR90Imagem1(60));
+console.log(calculaMedidaBTR90Imagem3(60));
 // -------------------------------------------------------
