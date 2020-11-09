@@ -5,14 +5,14 @@ const teorema_de_pitagoras = (cateto1, cateto2) => Math.sqrt((cateto1**2) + (cat
 // -----------Navio -> Nelson-class battleship-----------
 // a-b
 // c-x
-// console.log('Comprimento ->' ,(760*3)/280);
-// console.log('Altura -> ', (277*5)/91);
-// console.log('Largura -> ', (120*2)/43);
+// console.log('Comprimento ->', ((760*9)/280).toFixed(2));
+// console.log('Altura -> ', ((277*1.5)/91).toFixed(2));
+// console.log('Largura -> ', ((120*3)/43).toFixed(2));
 // console.log((280*1)/350);
 // console.log((128*280)/43);
 // console.log((280*19)/834);
 // console.log(((280*80)/22).toFixed(2));
-console.log(((760*45)/1018).toFixed(2)); // Barcos e guindastes
+// console.log(((760*45)/1018).toFixed(2)); // Barcos e guindastes
 // console.log(Math.floor(((760*8)/1018).toFixed(2))); // Barcos
 // console.log(Math.floor(((50*1)/64).toFixed(2))); // Barco desenho (G)
 const calculaMedida_Bateria_8_Canhoes = (x) => {
@@ -23,8 +23,8 @@ const calculaMedida_Bateria_8_Canhoes = (x) => {
 };
 // console.log(calculaMedida_Bateria_8_Canhoes(14));
 // console.log(`Comprimento -> ${calculaMedida(760, 4.5, 280)}`);
-// console.log(`Altura -> ${calculaMedida(277, 2.5, 91)}`);
-// console.log(`Largura -> ${calculaMedida(120, 2.5, 43)}`);
+// console.log(`Altura -> ${calculaMedida(277, 2, 91)}`);
+// console.log(`Largura -> ${calculaMedida(120, 2, 43)}`);
 // console.log(`Perimetro do circulo -> P35 -> 11 -> ${2*Math.PI*5.5}`);
 // console.log(`Perimetro do circulo -> P36 -> 12 -> ${2*Math.PI*6}`);
 // console.log(`Perimetro do circulo -> ${2*Math.PI*5.5}`);
