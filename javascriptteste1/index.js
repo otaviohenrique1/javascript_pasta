@@ -5,15 +5,16 @@ const teorema_de_pitagoras = (cateto1, cateto2) => Math.sqrt((cateto1**2) + (cat
 // -----------Navio -> Nelson-class battleship-----------
 // a-b
 // c-x
-// console.log('Comprimento ->', ((760*9)/280).toFixed(2));
-// console.log('Altura -> ', ((277*1.5)/91).toFixed(2));
+// console.log('Comprimento ->', ((760*4)/280).toFixed(2));
+// console.log('Altura -> ', ((277*4)/91).toFixed(2));
 // console.log('Largura -> ', ((120*3)/43).toFixed(2));
 // console.log((280*1)/350);
 // console.log((128*280)/43);
 // console.log((280*19)/834);
 // console.log(((280*80)/22).toFixed(2));
 // console.log(((760*45)/1018).toFixed(2)); // Barcos e guindastes
-// console.log(Math.floor(((760*8)/1018).toFixed(2))); // Barcos
+// console.log(Math.floor(((760*38)/1018).toFixed(2))); // Barcos
+console.log(5, '->', ((760*5)/1018).toFixed(2), '->', Math.floor(((760*5)/1018).toFixed(2)));
 // console.log(Math.floor(((50*1)/64).toFixed(2))); // Barco desenho (G)
 const calculaMedida_Bateria_8_Canhoes = (x) => {
     let r1 = (7*x)/50;
