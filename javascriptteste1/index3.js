@@ -47,4 +47,4 @@ const PerimetroCirculo = (valor) => {
     let r1 = 2 * Math.PI * valor;
     return `${valor} -> ${r1.toFixed(2)} -> ${Math.floor(r1)}`;
 };
-console.log(PerimetroCirculo(21));
+console.log(PerimetroCirculo(10));
