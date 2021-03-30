@@ -1,0 +1,1 @@
+console.log('Mercedes-Benz_Unimog_U-4023_2014'.toLowerCase().replace('-', '_'));
